@@ -45,6 +45,26 @@
 			path = MovieStreamingUITests;
 			sourceTree = "<group>";
 		};
+		FF3AE7692F9D3C5400266BD5 /* Domain */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		FF3AE76A2F9D3C5F00266BD5 /* Presentation */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		FF3AE76B2F9D3C6E00266BD5 /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		FF3AE76C2F9D3C7800266BD5 /* Data */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Data;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +95,7 @@
 		FF3AE72D2F9D336C00266BD5 = {
 			isa = PBXGroup;
 			children = (
+				FF3AE7682F9D3C4600266BD5 /* Layers */,
 				FF3AE7382F9D336C00266BD5 /* MovieStreaming */,
 				FF3AE74E2F9D336E00266BD5 /* MovieStreamingTests */,
 				FF3AE7582F9D336E00266BD5 /* MovieStreamingUITests */,
@@ -90,6 +111,17 @@
 				FF3AE7552F9D336E00266BD5 /* MovieStreamingUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		FF3AE7682F9D3C4600266BD5 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				FF3AE76C2F9D3C7800266BD5 /* Data */,
+				FF3AE76B2F9D3C6E00266BD5 /* Core */,
+				FF3AE76A2F9D3C5F00266BD5 /* Presentation */,
+				FF3AE7692F9D3C5400266BD5 /* Domain */,
+			);
+			path = Layers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
